@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
+    />
+    <title>My Idyll Post</title>
+    <meta property="og:title" content="My Idyll Post" />
+    <meta charset="utf-8" />
+    <meta property="og:type" content="article" />
+
+    <meta property="og:description" content="Short description of your project" />
+    <meta property="description" content="Short description of your project" />
+
+    <link rel="stylesheet" href="static/idyll_styles.css" />
+  </head>
+  <body>
+    <div id="idyll-mount"><div data-reactroot=""><div class="idyll-root"><div class=" idyll-text-container"></div><div class="article-header" style="background:#222222;color:#ffffff"><h1 class="hed">Week 11</h1><h2 class="dek">IS445 Spring 2021</h2><div class="byline">By: <a target="_blank" href="https://idyll-lang.org" style="color:#ffffff">Zhongyuan Zhang</a></div><div class="idyll-pub-date">Thu Apr 15 2021</div></div><div class=" idyll-text-container"><h2 id="world-happiness-report">World Happiness Report</h2><p>The World Happiness Report calculates a happiness score for each region around the world by measuring six key variables: income, freedom, trust in government, healthy life expectancy, social support and generosity.</p><h2 id="average-word-happiness-score-over-the-years:">Average Word Happiness Score over the years:</h2><div></div><h2 id="minimum-word-happiness-score-over-the-years:">Minimum Word Happiness Score over the years:</h2><div></div><p>Select min year:<input type="range" value="2005" min="2005" max="2017" step="1"/><span class="idyll-display">2005.00</span></p><p>Select max year:</p><input type="range" value="2018" min="2005" max="2018" step="1"/><span class="idyll-display">2018.00</span><p>As we can see, the average score of all the regions around the world did not change all that much (apart from 2005, which I am not sure why yet).</p><p>However, despite a flat curve for the average score, we can clearly see some dips in the minimum happiness score, specifically in 2008 and 2013. There is a good chance that the dip in 2008 is caused by the financial crisis (which could make sense, since an event like the financial crisis tends to affect less fortunate people than wealthier people, and wealthier people could generally be more happy than others). But of course, we need further investigation before drawing conclusions like this. Correlation does not always indicate causation. </p><p>I used “line” as the vega-lite mark, since I wanted to show the trend of happiness score over the years.</p></div></div></div></div>
+    <script src="static/idyll_index.js"></script>
+  </body>
+</html>
